@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     public float rotationSpeed = 100f; // Speed for rotating the player
     public float jumpForce = 5f;       // Force applied when jumping
     private Rigidbody rb;              // Reference to the Rigidbody component
-    private GameObject collectible;    // Reference to the collectible object
+    [SerializeField] private GameObject collectible;    // Reference to the collectible object
 
 
     public AudioSource audioSource;    // Reference to the AudioSource component
